@@ -1,5 +1,5 @@
 import React from "react"
-import MyForm from "./Components/Form";
+import MyForm from "./Components/Formulario/Form";
 import "./Styles/App.css"
 
 function App() {

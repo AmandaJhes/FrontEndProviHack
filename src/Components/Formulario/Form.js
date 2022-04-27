@@ -1,14 +1,14 @@
 import React from "react"
+import { Button } from "./styles"
 
 function MyForm() {
    return (
       <form>
-      <label>
-        Name:
-        <input type="text" name="name" />
+      <label>Name:<input type="text" name="name" />
       </label>
-      <input type="submit" value="Submit" />
+      <Button>Buscar</Button>
     </form>
+   
    )
  }
 
