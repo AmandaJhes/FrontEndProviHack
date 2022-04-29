@@ -6,7 +6,6 @@ export const Button = styled.button`
   font-size: 12px;
   border-radius: 999px;
   line-height: 24px;
-  
   font-weight: 900;
   padding: 16px 25px;
   margin: 10px;
@@ -26,3 +25,11 @@ export const Button = styled.button`
     background-color: #15447D;
   }
 `;
+
+export const FormContainer =styled.div`
+   padding: 5px 20px;
+   margin: 20px 0;
+   border-color: black ;
+   border-width:10px ;
+`
+
