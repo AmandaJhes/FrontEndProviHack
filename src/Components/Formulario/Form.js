@@ -4,7 +4,7 @@ import { Button } from "./styles"
 function MyForm() {
    return (
       <form>
-      <label>Name:<input type="text" name="nome "/>
+      <label>Name:<input type="text" name="name "/>
       </label>
       <Button>Buscar</Button>
     </form>
