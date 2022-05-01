@@ -12,7 +12,7 @@ function App() {
     <div>
       {/* <h3><Login /> </h3> */}
       {/* <h3><Cadastro /></h3> */}
-      {/* <Header/> */}
+      <Header/>
       {/* <PlanetB/> */}
     </div>
   );
