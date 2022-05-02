@@ -7,6 +7,7 @@ align-items: center;
 width:100%;
 height:100vh;
 background-color: #0b0b11;
+font-family: 'Montserrat', sans-serif;
 `
 
 export const Div1 = styled.div`
@@ -38,7 +39,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-width:400px;
+width:500px;
 margin-top:50px;
 `
 
@@ -49,6 +50,17 @@ height:40px;
 export const SubText = styled.div`
 color:#ffffff;
 font-size:30px;
-width:45%;
+width:55%;
 margin-top: -20px;
+`
+
+export const P = styled.p`
+display: inline;
+color: #f4b000;
+font-style: italic;
+`
+
+export const Pponto = styled.p`
+display: inline;
+color: #f4b000;
 `

@@ -1,5 +1,5 @@
 import React from "react"
-import { Main, Div1, Div2, Div3,ImgLogo, SubText } from './styles'
+import { Main, Div1, Div2, Div3,ImgLogo, SubText, P, Pponto } from './styles'
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import styled from "styled-components";
@@ -25,8 +25,9 @@ export const theme = createTheme({
 const ButtonMaterial = styled(Button)`
 &&{
     border-radius: 80px;
-    height: 40px;
+    height: 38px;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 `
 
@@ -35,6 +36,9 @@ const Button1 = styled(Button)`
     border-radius: 15px;
     height: 40px;
     font-size: 16px;
+    padding:0 20px 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    filter: drop-shadow(1px 3px 3px rgba(10, 10, 16, 0.8));
 }
 `
 
@@ -43,6 +47,10 @@ const Button2 = styled(Button)`
     border-radius: 15px;
     height: 40px;
     font-size: 16px;
+    padding:0 20px 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3856ef;
+    color:white;
 }
 `
 
@@ -57,8 +65,8 @@ function Header(props){
             </Stack>
         </Div1>
         <Div2>
-            <h1><b>Você é a faísca que falta.</b></h1>
-            <SubText>Você produz a energia que falta e nós mostramos quem você pode salvar.</SubText>
+            <h1><b>Você é a <P>faísca</P> que falta<Pponto>.</Pponto></b></h1>
+            <SubText>Você produz a <b>energia</b> que falta e nós mostramos quem você pode <b>salvar</b>.</SubText>
         </Div2>
         <Div3>
         <Stack spacing={2} direction="row">

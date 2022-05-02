@@ -4,6 +4,7 @@ import { ContainerNossosServicos } from "./Components/NossosServicos/ContainerNo
 import styled from "styled-components";
 import Header from "./Components/Header/Header";
 import PlanetB from "./Components/PlanetB/PlanetB";
+import SecondPage from "./Pages/SecondPage/SecondPage"
 // import Login from "./Components/Formulario/Login";
 import "./Styles/App.css"
 import ModalComponent from "./Components/Modal/Login/ModalComponente";
@@ -31,6 +32,7 @@ console.log(newModal);
         closeModal={closeModal}
       />
       {/* <PlanetB/> */}
+      <SecondPage/>
     </div>
   );
 }
