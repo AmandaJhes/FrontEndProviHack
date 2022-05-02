@@ -6,23 +6,30 @@ import Header from "./Components/Header/Header";
 import PlanetB from "./Components/PlanetB/PlanetB";
 // import Login from "./Components/Formulario/Login";
 import "./Styles/App.css"
+import ModalComponent from "./Components/Modal/Login/ModalComponente";
 
 function App() {
-  const [newModal,setNewModal] = useState(false)
+  const [newModal, setNewModal] = useState(false)
 
-  const openModal=()=>{
+  const openModal = () => {
     setNewModal(true)
   }
 
-  const closeModal=()=>{
+  const closeModal = () => {
     setNewModal(false)
   }
-
+console.log(newModal);
   return (
     <div>
       {/* <h3><Login /> </h3> */}
       {/* <h3><Cadastro /></h3> */}
-      <Header/>
+      <Header
+        openModal={openModal}
+      />
+      <ModalComponent
+        newModal={newModal}
+        closeModal={closeModal}
+      />
       {/* <PlanetB/> */}
     </div>
   );
