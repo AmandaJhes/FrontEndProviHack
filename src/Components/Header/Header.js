@@ -25,8 +25,9 @@ export const theme = createTheme({
 const ButtonMaterial = styled(Button)`
 &&{
     border-radius: 80px;
-    height: 40px;
+    height: 38px;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 `
 
