@@ -46,14 +46,14 @@ const Button2 = styled(Button)`
 }
 `
 
-function Header(){
+function Header(props){
    
    return(
       <Main>
         <Div1>
             <ImgLogo src={vector}/>
             <Stack spacing={2} direction="row">
-                <ButtonMaterial theme={theme} variant="outlined"><b>ENTRAR</b></ButtonMaterial>
+                <ButtonMaterial onClick={props.openModal} theme={theme} variant="outlined"><b>ENTRAR</b></ButtonMaterial>
             </Stack>
         </Div1>
         <Div2>
